@@ -28,5 +28,3 @@ C:\> mongod
 #Note : 
 You have to run the rest the post endpoint http://localhost:8080/recuperate_posts_from_url to fill the database with the data extracted before running the ihm
 
-
-
