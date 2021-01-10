@@ -26,5 +26,9 @@ C:\> mongod
 2)mvn clean package
 
 #Note : 
-You have to run the rest the post endpoint http://localhost:8080/recuperate_posts_from_url to fill the database with the data extracted before running the ihm
+You have to run the rest endpoint http://localhost:8080/recuperate_posts_from_url 
+with the url https://jsonplaceholder.typicode.com/posts
+to fill the database with the data extracted before running the ihm.
+
+Thanks.
 
