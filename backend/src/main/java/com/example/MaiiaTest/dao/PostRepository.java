@@ -8,6 +8,4 @@ import java.util.List;
 public interface  PostRepository extends MongoRepository<Post, Long> {
 
     public List<Post> findAll();
-    public void deleteAll();
-
 }

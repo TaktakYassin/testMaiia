@@ -27,7 +27,7 @@ public class RecuperateDataService {
             exception.printStackTrace();
             throw exception;
         }
-        return posts.stream().sorted((x1,x2) -> x2.getTitle().compareTo(x1.getTitle())).collect(Collectors.toList());
+        return posts.stream().sorted((x1,x2) -> x2.getTitle().compareTo(x1.getTitle())).limit(50).collect(Collectors.toList());
     }
 
 }

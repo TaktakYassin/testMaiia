@@ -1,5 +1,8 @@
 package com.example.MaiiaTest.dto;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "Post")
 public class Post {
 
     private Long userId;

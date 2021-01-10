@@ -10,12 +10,16 @@ C:\> mongo
 Advanced System Settings -> Environment Variables -> Path(Under System Variables) -> Edit -> C:\Program Files\MongoDB\Server\4.0\bin
 5) start the MongoDB serve :
 C:\> mongod 
-6) Create the database if it doesn't exist : 
-Open up another shell and type <mongo> then type <use PostsDatabase>
 
 #View BackEndController
 1) Run MaiiaTestApplication
 2) Open up http://localhost:8080/
+
+#start angular ui
+1) Start console
+2) Type npm update
+3) Type ng serve
+2) Open up http://localhost:4200/
 
 
 
