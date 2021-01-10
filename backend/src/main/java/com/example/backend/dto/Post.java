@@ -1,4 +1,4 @@
-package com.example.MaiiaTest.dto;
+package com.example.backend.dto;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 

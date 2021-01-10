@@ -1,6 +1,6 @@
-package com.example.MaiiaTest.dao;
+package com.example.backend.dao;
 
-import com.example.MaiiaTest.dto.Post;
+import com.example.backend.dto.Post;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

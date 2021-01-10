@@ -1,6 +1,6 @@
-package com.example.MaiiaTest.service;
+package com.example.backend.service;
 
-import com.example.MaiiaTest.dto.Post;
+import com.example.backend.dto.Post;
 import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

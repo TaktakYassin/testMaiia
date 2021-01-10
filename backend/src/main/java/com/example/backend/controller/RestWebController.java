@@ -1,8 +1,8 @@
-package com.example.MaiiaTest.controller;
+package com.example.backend.controller;
 
-import com.example.MaiiaTest.dao.PostRepository;
-import com.example.MaiiaTest.dto.Post;
-import com.example.MaiiaTest.service.RecuperateDataService;
+import com.example.backend.dao.PostRepository;
+import com.example.backend.dto.Post;
+import com.example.backend.service.RecuperateDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
