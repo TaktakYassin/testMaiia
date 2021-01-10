@@ -21,7 +21,7 @@ public class RestWebController {
     @Autowired
     private PostRepository postRepository;
 
-    @PostMapping("posts")
+    @PostMapping("recuperate_posts_from_url")
     private void recuperatePostsFromUrl(String url){
         postRepository.deleteAll();
         List<Post> posts = recuperateDataService.getPosts(url);

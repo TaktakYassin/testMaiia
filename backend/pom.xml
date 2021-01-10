@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>MaiiaTest</name>
+	<name>backend</name>
 	<description>Technical test for Maiia</description>
 
 	<properties>

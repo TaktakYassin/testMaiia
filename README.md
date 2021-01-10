@@ -21,5 +21,12 @@ C:\> mongod
 3) Type ng serve
 2) Open up http://localhost:4200/
 
+#generate the backend jar and the frontend war
+1)cd MaiiaTest
+2)mvn clean package
+
+#Note : 
+You have to run the rest the post endpoint http://localhost:8080/recuperate_posts_from_url to fill the database with the data extracted before running the ihm
+
 
 
